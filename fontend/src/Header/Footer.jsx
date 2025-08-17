@@ -10,7 +10,7 @@ const Footer = () => {
         </NavLink>
             <NavLink to={`/schedule`} className={({ isActive }) =>`px-6 ${isActive ? 'btn rounded-2xl bg-[rgb(23,106,229)] text-white  text-center mr-2' : 'text-gray-600'}`}>My-Bookings</NavLink>
             <NavLink to={`/questions`} className={({ isActive }) =>`px-6 ${isActive ? 'btn rounded-2xl bg-[rgb(23,106,229)] text-white  text-center mr-2' : 'text-gray-600'}`}>Blogs</NavLink>
-            <NavLink to={`/user`} className={({ isActive }) =>`px-6 ${isActive ? 'btn rounded-2xl bg-[rgb(23,106,229)] text-white  text-center mr-2' : 'text-gray-600'}`}>User Details</NavLink>
+            <NavLink to={`/userDetails`} className={({ isActive }) =>`px-6 ${isActive ? 'btn rounded-2xl bg-[rgb(23,106,229)] text-white  text-center mr-2' : 'text-gray-600'}`}>My Profile</NavLink>
         </>
     return (
         <div className=' bg-white px-5 md:px-12 py-16'>
